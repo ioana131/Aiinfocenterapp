@@ -9,6 +9,16 @@
 - PostgreSQL installed and running
 - IntelliJ IDEA (recommended)
 
+  
+- ## AI Integration
+
+The application exposes a backend endpoint that receives user messages and stores them in the database.
+Each message is then forwarded to an external AI workflow service, which generates a response.
+The response is saved and returned to the client.
+
+This approach keeps AI logic external to the core application while preserving conversation history and data consistency.
+
+
 ### Steps
 
 1. Open the project folder in **IntelliJ IDEA**
@@ -74,13 +84,4 @@ The application uses a **relational PostgreSQL database** with normalized tables
   - repository
 - The application can be extended with additional features such as notifications or analytics
 
----
 
-## Future Improvements
-
-Possible extensions include:
-
-- improved user interface
-- notifications for request status changes
-- advanced AI assistance features
-- reporting and statistics for administrators
