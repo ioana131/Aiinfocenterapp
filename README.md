@@ -99,6 +99,6 @@ The application starts locally on the default Spring Boot port (`http://localhos
   - controller  
   - service  
   - repository  
-- The application can be extended with additional features such as notifications or analytics
+
 
 
