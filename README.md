@@ -78,5 +78,27 @@ The application uses a **relational PostgreSQL database** with normalized tables
   - service
   - repository
 - The application can be extended with additional features such as notifications or analytics
+## ▶️ Running the Application
+
+### Steps
+1. Open the project folder in **IntelliJ IDEA**
+2. Configure the database connection in `application.properties`:
+   - database URL  
+   - username  
+   - password  
+3. Allow IntelliJ to resolve Maven dependencies
+4. Run the main Spring Boot application class using the IDE
+
+The application starts locally on the default Spring Boot port (`http://localhost:8080`) and connects to the configured PostgreSQL database.
+---
+
+## Development Notes
+
+- Dependency management is handled by **Maven**
+- The project follows a **layered architecture**:
+  - controller  
+  - service  
+  - repository  
+- The application can be extended with additional features such as notifications or analytics
 
 
