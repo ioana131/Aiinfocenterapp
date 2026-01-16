@@ -3,12 +3,6 @@
 
 ## Running the Application
 
-### Prerequisites
-
-- Java JDK 17+ (or the version required by the project)
-- PostgreSQL installed and running
-- IntelliJ IDEA (recommended)
-
   
 - ## AI Integration
 
@@ -30,6 +24,7 @@ This approach keeps AI logic external to the core application while preserving c
 4. Run the main Spring Boot application class using the IDE
 
 The application will start locally and connect to the configured database.
+The application starts locally on http://localhost:8080 .
 
 ---
 
